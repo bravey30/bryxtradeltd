@@ -78,8 +78,8 @@ function Contact() {
               <Field label="Email" name="email" type="email" required />
               <Field label="Country" name="country" />
             </div>
-            <Field label="Product interest" name="product" placeholder="Hass avocados, white sesame, mung beans…" />
-            <Field label="Estimated volume" name="volume" placeholder="e.g. 1 x 20ft container / month" />
+            <Field label="Product interest" name="product" placeholder="Hass avocados, white sesame, mung beans, cashewnuts…" />
+            <Field label="Estimated volume" name="volume" placeholder="e.g. 1 × 20ft container / month, FOB or CIF" />
             <div>
               <label className="eyebrow">Message</label>
               <textarea
