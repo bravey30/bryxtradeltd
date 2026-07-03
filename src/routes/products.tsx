@@ -91,6 +91,7 @@ function Products() {
             <div className="md:col-span-5 flex flex-col justify-center">
               <p className="eyebrow text-accent">{g.tag}</p>
               <h2 className="mt-4 text-5xl md:text-6xl">{g.title}</h2>
+              <p className="mt-6 max-w-md text-base text-muted-foreground">{g.caption}</p>
               <ul className="mt-10 space-y-6">
                 {g.items.map((it, idx) => (
                   <li key={it.name} className="border-t border-border pt-5">
