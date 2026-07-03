@@ -35,9 +35,9 @@ function Quality() {
           to the field it came from.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Traceability isn't paperwork — it's how we honour the trust of our buyers in
-          Rotterdam, Dubai and Mumbai. Every shipment carries a documented lineage back
-          to the smallholder cooperative that grew it.
+          Farm-level best practices, comprehensive food safety and hygiene, strict regulatory
+          compliance, rigorous product inspection and full traceability — the five commitments
+          behind every Bryx shipment leaving Dar es Salaam.
         </p>
       </section>
 
