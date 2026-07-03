@@ -38,9 +38,9 @@ function Index() {
               to the world's tables.
             </h1>
             <p className="mt-8 max-w-xl text-lg text-cream/80">
-              Bryx Trades is an integrated agri-export company — sourcing, processing
-              and shipping premium avocados, sesame, pulses and soya beans from farm
-              to port under a single, accountable partner.
+              Bryx Trades Limited is a Tanzanian-owned agri-export company — sourcing,
+              processing, cold-storing and shipping premium avocados, pulses, sesame,
+              cashewnuts and oilseeds from farm to port under one accountable partner.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
