@@ -21,42 +21,41 @@ export const Route = createFileRoute("/products")({
 const groups = [
   {
     tag: "01 — Fresh Produce",
-    title: "Avocados",
+    title: "Premium Hass & Fuerte Avocados",
     image: avocados,
+    caption: "Creamy, rich-flavoured export varieties grown for the international market. Peak season: March – September.",
     items: [
-      { name: "Hass Avocado", note: "Premium export variety — high oil, rich flavour." },
-      { name: "Fuerte Avocado", note: "Smooth-skinned, buttery texture, strong shelf life." },
+      { name: "Hass Avocado", note: "Premium export variety — high oil content, rich flavour and strong shelf life." },
+      { name: "Fuerte Avocado", note: "Smooth-skinned, buttery texture, ideal for European and Middle Eastern retail." },
     ],
   },
   {
-    tag: "02 — Oil Seeds",
-    title: "Sesame",
-    image: sesame,
-    items: [
-      { name: "White Sesame", note: "Cleaned to 99.95%+ purity for food processors." },
-      { name: "Black Sesame", note: "Bold flavour, popular for confectionery & oils." },
-      { name: "Golden Sesame", note: "High oil content, prized in Middle Eastern markets." },
-    ],
-  },
-  {
-    tag: "03 — Pulses",
-    title: "Legumes",
+    tag: "02 — Pulses",
+    title: "Premium Pulses",
     image: pulses,
+    caption: "High-protein legumes processed to strict global standards and buyer specifications.",
     items: [
-      { name: "Pigeon Peas", note: "Protein-rich, sorted and machine-cleaned." },
+      { name: "Pigeon Peas", note: "Protein-rich, machine-cleaned and sorted for export." },
       { name: "Chickpeas", note: "Kabuli & desi varieties, calibrated by size." },
-      { name: "Mung Beans", note: "Bright green, uniform grade for export." },
+      { name: "Mung Beans", note: "Bright green, uniform grade for global markets." },
+      { name: "Soya Beans", note: "High oil content, HACCP processed, long shelf life." },
     ],
   },
   {
-    tag: "04 — Oil Beans",
-    title: "Soya Beans",
-    image: soya,
+    tag: "03 — Nuts & Oilseeds",
+    title: "Nuts & Oilseeds",
+    image: sesame,
+    caption: "High oil content, long shelf life — trusted by food processors and manufacturers.",
     items: [
-      { name: "Premium Soya", note: "High oil content, HACCP processed, long shelf life." },
+      { name: "Sesame Seeds", note: "White, black and golden — high oil content for food and confectionery." },
+      { name: "Sunflower Seeds", note: "Cleaned and graded for oil extraction and snack industries." },
+      { name: "Groundnuts", note: "Blanched, split or whole — aflatoxin-controlled for export." },
+      { name: "Cashewnuts", note: "Premium Tanzanian raw and processed kernels." },
     ],
   },
 ];
+
+const bonusImage = soya;
 
 function Products() {
   return (
