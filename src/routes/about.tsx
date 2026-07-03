@@ -15,11 +15,11 @@ export const Route = createFileRoute("/about")({
 });
 
 const values = [
-  { k: "Integrity", v: "Transparent, honest business with every partner." },
-  { k: "Quality", v: "Meeting and exceeding international standards." },
-  { k: "Innovation", v: "Continuous improvement across every process." },
-  { k: "Partnership", v: "Long-term relationships with buyers and farmers." },
-  { k: "Customer focus", v: "Delivering satisfaction and earning trust." },
+  { k: "Partnership", v: "Strong partnerships with farmers and buyers, built on mutual respect and long-term goals." },
+  { k: "Integrity", v: "Honesty and transparency in every dealing, fostering trust with clients and partners." },
+  { k: "Quality", v: "Only the finest agricultural products, meeting local and international standards of excellence." },
+  { k: "Innovation", v: "Continuous improvement of processes and technology to stay ahead of market trends." },
+  { k: "Customer Focused", v: "Listening, adapting and delivering — earning trust through service and reliability." },
 ];
 
 function About() {
