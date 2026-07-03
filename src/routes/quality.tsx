@@ -14,14 +14,14 @@ export const Route = createFileRoute("/quality")({
 });
 
 const steps = [
-  { n: "01", t: "Farm-level GAP", d: "Good Agricultural Practices applied at source with our farmer network." },
-  { n: "02", t: "Aggregation", d: "Consolidation from cooperatives into our regional receiving points." },
-  { n: "03", t: "Inspection", d: "Sorting, grading and quality inspection against buyer specifications." },
-  { n: "04", t: "HACCP processing", d: "Food safety systems, GMP-compliant facilities, clean & controlled." },
-  { n: "05", t: "Packaging", d: "Export packaging appropriate to sea/air freight and destination." },
-  { n: "06", t: "Cold storage", d: "Temperature integrity from packhouse to container." },
-  { n: "07", t: "Documentation", d: "Phytosanitary certificates, export docs, customs clearance." },
-  { n: "08", t: "Shipping", d: "FOB or CIF, sea or air, tracked to the buyer's door." },
+  { n: "01", t: "Farm-level GAP", d: "Good Agricultural Practices applied at source — ensuring freshness and uniformity across every harvest." },
+  { n: "02", t: "Direct sourcing", d: "Aggregation from vetted farmers and cooperatives into our regional receiving points." },
+  { n: "03", t: "Product inspection", d: "Rigorous pre-export sorting and grading to the highest buyer specifications." },
+  { n: "04", t: "HACCP & GMP processing", d: "Comprehensive food safety and hygiene systems in every processing facility." },
+  { n: "05", t: "Export packaging", d: "Export-standard handling and packaging appropriate to sea or air freight." },
+  { n: "06", t: "Cold storage", d: "Temperature integrity from packhouse to container for fresh produce." },
+  { n: "07", t: "Documentation", d: "Phytosanitary certification, export documentation and coordinated customs clearance." },
+  { n: "08", t: "Shipping", d: "FOB or CIF, sea or air — tracked with post-shipment support." },
 ];
 
 function Quality() {
