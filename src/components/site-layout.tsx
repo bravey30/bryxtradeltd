@@ -21,7 +21,11 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4 lg:px-10">
           <Link to="/" className="group flex items-center gap-3">
-            <img src={bryxLogo.url} alt="Bryx Trades Limited" className="h-11 w-auto" />
+            <img
+              src={bryxLogo.url}
+              alt="Bryx Trades Limited"
+              className="h-16 w-auto max-w-[220px] object-contain"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
