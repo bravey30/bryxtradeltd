@@ -44,8 +44,8 @@ function Contact() {
             <div className="mt-4 flex items-start gap-4">
               <Mail className="text-accent mt-1" size={20} />
               <div className="space-y-1">
-                <a href="mailto:info@bryxtrades.co.tz" className="block font-display text-xl underline underline-offset-4 decoration-accent">info@bryxtrades.co.tz</a>
-                <a href="mailto:md@bryxtrades.co.tz" className="block text-sm text-muted-foreground">md@bryxtrades.co.tz (George Cosmas, MD)</a>
+                <a href="mailto:bryxtradesltd@gmail.com" className="block font-display text-xl underline underline-offset-4 decoration-accent">bryxtradesltd@gmail.com</a>
+                <a href="mailto:georgecosmas01@gmail.com" className="block text-sm text-muted-foreground">georgecosmas01@gmail.com (George Cosmas, MD)</a>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ function Contact() {
             <p className="eyebrow">Phone</p>
             <div className="mt-4 flex items-start gap-4">
               <Phone className="text-accent mt-1" size={20} />
-              <div className="font-display text-xl">+255 000 000 000</div>
+              <a href="tel:+255621219517" className="font-display text-xl">+255 621 219 517</a>
             </div>
           </div>
 
