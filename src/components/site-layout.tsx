@@ -1,8 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { Menu, X } from "lucide-react";
-import bryxLogo from "@/assets/bryx-logo.png.asset.json";
-
+import bryxLogo from "@/assets/bryx-logo-cropped.png";
 
 const NAV = [
   { to: "/", label: "Home" },
