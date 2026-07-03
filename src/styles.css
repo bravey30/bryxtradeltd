@@ -40,32 +40,34 @@
 :root {
   --radius: 0.25rem;
 
-  /* Deep emerald + gold + cream editorial palette */
-  --background: oklch(0.982 0.008 90);         /* warm cream */
-  --foreground: oklch(0.22 0.03 160);          /* deep emerald ink */
-  --card: oklch(0.995 0.005 90);
-  --card-foreground: oklch(0.22 0.03 160);
-  --popover: oklch(0.995 0.005 90);
-  --popover-foreground: oklch(0.22 0.03 160);
-  --primary: oklch(0.28 0.06 160);             /* emerald deep */
-  --primary-foreground: oklch(0.98 0.01 90);
-  --secondary: oklch(0.94 0.015 90);
-  --secondary-foreground: oklch(0.22 0.03 160);
-  --muted: oklch(0.93 0.012 85);
-  --muted-foreground: oklch(0.48 0.02 150);
-  --accent: oklch(0.72 0.14 75);               /* warm gold */
-  --accent-foreground: oklch(0.18 0.02 160);
+  /* Bryx palette: deep navy + fresh green + white/cream */
+  --background: oklch(0.995 0.002 250);        /* near white */
+  --foreground: oklch(0.24 0.08 258);          /* deep navy ink */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.24 0.08 258);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.24 0.08 258);
+  --primary: oklch(0.32 0.13 262);             /* Bryx navy */
+  --primary-foreground: oklch(0.99 0.005 250);
+  --secondary: oklch(0.96 0.01 250);
+  --secondary-foreground: oklch(0.24 0.08 258);
+  --muted: oklch(0.95 0.01 250);
+  --muted-foreground: oklch(0.5 0.03 255);
+  --accent: oklch(0.66 0.19 145);              /* Bryx green */
+  --accent-foreground: oklch(0.99 0.005 250);
   --destructive: oklch(0.55 0.2 27);
-  --destructive-foreground: oklch(0.98 0.01 90);
-  --border: oklch(0.86 0.02 85);
-  --input: oklch(0.86 0.02 85);
-  --ring: oklch(0.72 0.14 75);
+  --destructive-foreground: oklch(0.98 0.01 250);
+  --border: oklch(0.9 0.015 250);
+  --input: oklch(0.9 0.015 250);
+  --ring: oklch(0.66 0.19 145);
 
-  --gold: oklch(0.75 0.15 78);
-  --gold-soft: oklch(0.86 0.09 82);
-  --cream: oklch(0.965 0.015 88);
-  --emerald-deep: oklch(0.22 0.05 160);
+  /* Legacy tokens repointed to new palette (kept for existing utilities) */
+  --gold: oklch(0.66 0.19 145);                /* now green accent */
+  --gold-soft: oklch(0.78 0.16 148);           /* lighter green */
+  --cream: oklch(0.99 0.005 250);              /* white */
+  --emerald-deep: oklch(0.24 0.1 262);         /* now deep navy */
 }
+
 
 @layer base {
   * { border-color: var(--color-border); }
