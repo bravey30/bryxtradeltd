@@ -45,7 +45,7 @@ const groups = [
   {
     tag: "03 — Nuts & Oilseeds",
     title: "Nuts & Oilseeds",
-    image: sesame,
+    image: pulses,
     caption: "High oil content, long shelf life — trusted by food processors and manufacturers.",
     items: [
       { name: "Sesame Seeds", note: "White, black and golden — high oil content for food and confectionery." },
