@@ -55,7 +55,7 @@ const groups = [
   },
 ];
 
-const bonusImage = soya;
+
 
 function Products() {
   return (
