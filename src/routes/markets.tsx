@@ -92,11 +92,11 @@ function Markets() {
           <h2 className="mt-4 text-4xl md:text-5xl text-cream">A five-step buyer journey.</h2>
           <div className="mt-14 grid gap-6 md:grid-cols-5">
             {[
-              "Inquiry & specifications",
-              "Price confirmation",
-              "Quality inspection",
+              "Inquiry & specification",
+              "Price confirmation (FOB / CIF)",
+              "Quality inspection & packaging",
               "Documentation & shipment",
-              "Delivery & after-sales",
+              "On-time delivery & post-shipment support",
             ].map((s, i) => (
               <div key={s} className="border-t-2 border-gold pt-5">
                 <div className="font-mono text-xs text-gold">STEP 0{i + 1}</div>
