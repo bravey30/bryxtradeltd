@@ -21,9 +21,9 @@ export function SiteLayout({ children }: { children: ReactNode }) {
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4 lg:px-10">
           <Link to="/" className="group flex items-center gap-3">
             <img
-              src={bryxLogo.url}
+              src={bryxLogo}
               alt="Bryx Trades Limited"
-              className="h-16 w-auto max-w-[220px] object-contain"
+              className="h-24 w-auto max-w-[180px] object-contain"
             />
           </Link>
 
