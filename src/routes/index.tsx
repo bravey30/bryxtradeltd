@@ -139,14 +139,14 @@ function Index() {
             className="md:col-span-5"
             image={sesame}
             index="A / 02"
-            title="Sesame — White · Black · Golden"
-            desc="High-oil-content seeds for food processors and manufacturers."
+            title="Sesame, Sunflower, Groundnuts & Cashewnuts"
+            desc="Nuts and oilseeds with high oil content and long shelf life — for food processors and manufacturers."
           />
           <FeatureCard
             className="md:col-span-5"
             image={pulses}
             index="A / 03"
-            title="Pigeon Peas · Chickpeas · Mung Beans"
+            title="Pigeon Peas · Chickpeas · Mung Beans · Soya"
             desc="Protein-rich pulses, sorted and graded to buyer specifications."
           />
         </div>
