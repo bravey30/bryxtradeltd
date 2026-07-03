@@ -15,11 +15,11 @@ export const Route = createFileRoute("/about")({
 });
 
 const values = [
-  { k: "Integrity", v: "Transparent, honest business with every partner." },
-  { k: "Quality", v: "Meeting and exceeding international standards." },
-  { k: "Innovation", v: "Continuous improvement across every process." },
-  { k: "Partnership", v: "Long-term relationships with buyers and farmers." },
-  { k: "Customer focus", v: "Delivering satisfaction and earning trust." },
+  { k: "Partnership", v: "Strong partnerships with farmers and buyers, built on mutual respect and long-term goals." },
+  { k: "Integrity", v: "Honesty and transparency in every dealing, fostering trust with clients and partners." },
+  { k: "Quality", v: "Only the finest agricultural products, meeting local and international standards of excellence." },
+  { k: "Innovation", v: "Continuous improvement of processes and technology to stay ahead of market trends." },
+  { k: "Customer Focused", v: "Listening, adapting and delivering — earning trust through service and reliability." },
 ];
 
 function About() {
@@ -39,14 +39,19 @@ function About() {
         </div>
         <div className="md:col-span-7 space-y-8 text-lg text-muted-foreground">
           <p>
-            Bryx Trades Limited is an integrated agri-export company sourcing, processing,
-            packaging, cold-storing and exporting premium agricultural commodities from Tanzania
-            to the world.
+            Bryx Trades Limited is a Tanzanian-owned agri-export company specialising in premium
+            agricultural products and cold chain solutions. We process and export high-quality
+            fresh fruits, oil seeds, legumes and pulses to international markets.
           </p>
           <p>
-            Unlike brokers who merely connect buyers and farmers, we take ownership of quality
-            throughout the entire supply chain — from farm-level Good Agricultural Practices to
-            HACCP-controlled processing and international logistics.
+            Our integrated supply chain enables full control — from farm-level sourcing to
+            processing, packaging, cold storage and export logistics — ensuring freshness,
+            consistency and compliance with global quality standards.
+          </p>
+          <p>
+            We work closely with local farmers and suppliers, promoting sustainable agriculture,
+            fair trade and long-term partnerships. At Bryx Trades Limited, we are committed to
+            delivering reliable supply, premium quality and lasting value to our global clients.
           </p>
           <p className="text-foreground">
             Led by Managing Director <span className="font-display italic">George Cosmas</span>,
@@ -60,19 +65,20 @@ function About() {
           <div>
             <p className="eyebrow text-accent">Vision</p>
             <h2 className="mt-6 text-4xl md:text-5xl">
-              To become the preferred global partner for
-              <em className="italic text-gold"> premium Tanzanian</em> agricultural exports.
+              To be the preferred global partner for
+              <em className="italic text-gold"> premium Tanzanian</em> agri-export solutions —
+              recognised for integrity, innovation and an unwavering dedication to quality.
             </h2>
           </div>
           <div>
             <p className="eyebrow text-accent">Mission</p>
             <ul className="mt-6 space-y-6 text-primary-foreground/85">
               {[
-                "Supply premium Tanzanian agricultural products of consistent export quality.",
-                "Maintain freshness through disciplined cold-chain solutions.",
+                "Be a leading provider of high-quality Tanzanian agricultural products to the global market.",
+                "Ensure the highest standards of freshness through state-of-the-art cold chain solutions.",
+                "Support sustainable farming and empower local communities through fair partnerships.",
+                "Create long-lasting value for our farmers, clients and stakeholders.",
                 "Deliver reliability our buyers can plan their operations around.",
-                "Empower local farmers through fair, long-term partnerships.",
-                "Create value for buyers, farmers and stakeholders alike.",
               ].map((m, i) => (
                 <li key={i} className="flex gap-4 border-b border-primary-foreground/15 pb-6">
                   <span className="font-mono text-xs text-gold">0{i + 1}</span>

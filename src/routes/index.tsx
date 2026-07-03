@@ -38,9 +38,9 @@ function Index() {
               to the world's tables.
             </h1>
             <p className="mt-8 max-w-xl text-lg text-cream/80">
-              Bryx Trades is an integrated agri-export company — sourcing, processing
-              and shipping premium avocados, sesame, pulses and soya beans from farm
-              to port under a single, accountable partner.
+              Bryx Trades Limited is a Tanzanian-owned agri-export company — sourcing,
+              processing, cold-storing and shipping premium avocados, pulses, sesame,
+              cashewnuts and oilseeds from farm to port under one accountable partner.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
@@ -62,7 +62,7 @@ function Index() {
           <div className="mt-16 grid gap-8 border-t border-cream/20 pt-6 text-cream/80 md:grid-cols-4">
             {[
               ["04", "Continents served"],
-              ["09", "Export commodities"],
+              ["10+", "Export commodities"],
               ["100%", "Traceable supply chain"],
               ["FOB · CIF", "Shipping terms"],
             ].map(([k, v]) => (
@@ -139,14 +139,14 @@ function Index() {
             className="md:col-span-5"
             image={sesame}
             index="A / 02"
-            title="Sesame — White · Black · Golden"
-            desc="High-oil-content seeds for food processors and manufacturers."
+            title="Sesame, Sunflower, Groundnuts & Cashewnuts"
+            desc="Nuts and oilseeds with high oil content and long shelf life — for food processors and manufacturers."
           />
           <FeatureCard
             className="md:col-span-5"
             image={pulses}
             index="A / 03"
-            title="Pigeon Peas · Chickpeas · Mung Beans"
+            title="Pigeon Peas · Chickpeas · Mung Beans · Soya"
             desc="Protein-rich pulses, sorted and graded to buyer specifications."
           />
         </div>

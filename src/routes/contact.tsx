@@ -30,7 +30,7 @@ function Contact() {
       <section className="mx-auto grid max-w-[1400px] gap-16 px-6 pb-32 md:grid-cols-12 lg:px-10">
         <div className="md:col-span-5 space-y-10">
           <div>
-            <p className="eyebrow">Headquarters</p>
+            <p className="eyebrow">Head Office</p>
             <div className="mt-4 flex items-start gap-4">
               <MapPin className="text-accent mt-1" size={20} />
               <div>
@@ -44,8 +44,8 @@ function Contact() {
             <div className="mt-4 flex items-start gap-4">
               <Mail className="text-accent mt-1" size={20} />
               <div className="space-y-1">
-                <a href="mailto:info@bryxtrades.co.tz" className="block font-display text-xl underline underline-offset-4 decoration-accent">info@bryxtrades.co.tz</a>
-                <a href="mailto:md@bryxtrades.co.tz" className="block text-sm text-muted-foreground">md@bryxtrades.co.tz (George Cosmas, MD)</a>
+                <a href="mailto:bryxtradesltd@gmail.com" className="block font-display text-xl underline underline-offset-4 decoration-accent">bryxtradesltd@gmail.com</a>
+                <a href="mailto:georgecosmas01@gmail.com" className="block text-sm text-muted-foreground">georgecosmas01@gmail.com (George Cosmas, MD)</a>
               </div>
             </div>
           </div>
@@ -53,14 +53,14 @@ function Contact() {
             <p className="eyebrow">Phone</p>
             <div className="mt-4 flex items-start gap-4">
               <Phone className="text-accent mt-1" size={20} />
-              <div className="font-display text-xl">+255 000 000 000</div>
+              <a href="tel:+255621219517" className="font-display text-xl">+255 621 219 517</a>
             </div>
           </div>
 
           <div className="border-t border-border pt-8">
-            <p className="eyebrow">Credentials</p>
+            <p className="eyebrow">Legal Compliance</p>
             <div className="mt-4 flex flex-wrap gap-2 font-mono text-xs">
-              {["TIN Certified", "Registered Co.", "HACCP", "GAP", "GMP"].map((c) => (
+              {["TIN Certificate", "Certificate of Registration", "HACCP", "GAP", "GMP"].map((c) => (
                 <span key={c} className="rounded-sm border border-border px-3 py-1.5">{c}</span>
               ))}
             </div>
@@ -78,8 +78,8 @@ function Contact() {
               <Field label="Email" name="email" type="email" required />
               <Field label="Country" name="country" />
             </div>
-            <Field label="Product interest" name="product" placeholder="Hass avocados, white sesame, mung beans…" />
-            <Field label="Estimated volume" name="volume" placeholder="e.g. 1 x 20ft container / month" />
+            <Field label="Product interest" name="product" placeholder="Hass avocados, white sesame, mung beans, cashewnuts…" />
+            <Field label="Estimated volume" name="volume" placeholder="e.g. 1 × 20ft container / month, FOB or CIF" />
             <div>
               <label className="eyebrow">Message</label>
               <textarea
