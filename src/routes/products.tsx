@@ -32,7 +32,7 @@ const groups = [
   {
     tag: "02 — Pulses",
     title: "Premium Pulses",
-    image: soya,
+    image: pulses,
     caption: "High-protein legumes processed to strict global standards and buyer specifications.",
     items: [
       { name: "Pigeon Peas", note: "Protein-rich, machine-cleaned and sorted for export." },
