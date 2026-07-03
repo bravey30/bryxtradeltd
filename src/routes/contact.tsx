@@ -30,7 +30,7 @@ function Contact() {
       <section className="mx-auto grid max-w-[1400px] gap-16 px-6 pb-32 md:grid-cols-12 lg:px-10">
         <div className="md:col-span-5 space-y-10">
           <div>
-            <p className="eyebrow">Headquarters</p>
+            <p className="eyebrow">Head Office</p>
             <div className="mt-4 flex items-start gap-4">
               <MapPin className="text-accent mt-1" size={20} />
               <div>
