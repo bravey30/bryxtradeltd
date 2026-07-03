@@ -76,12 +76,12 @@ function Quality() {
         </div>
         <ul className="space-y-6">
           {[
-            "Reliable, consistent supply across seasons",
-            "Direct farmer sourcing — no middlemen",
-            "Rigorous quality control at every stage",
-            "Full export compliance & documentation",
-            "Flexible FOB and CIF shipping arrangements",
-            "Competitive pricing with transparent communication",
+            "Reliable and consistent supply across seasons",
+            "Strong farmer networks and direct sourcing",
+            "Strict quality control and export compliance",
+            "Flexible FOB and CIF shipping options",
+            "Competitive pricing and timely delivery",
+            "Transparent communication and long-term partnerships",
           ].map((a, i) => (
             <li key={a} className="flex gap-6 border-b border-border pb-5">
               <span className="font-mono text-xs text-accent">0{i + 1}</span>
