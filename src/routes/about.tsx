@@ -39,14 +39,19 @@ function About() {
         </div>
         <div className="md:col-span-7 space-y-8 text-lg text-muted-foreground">
           <p>
-            Bryx Trades Limited is an integrated agri-export company sourcing, processing,
-            packaging, cold-storing and exporting premium agricultural commodities from Tanzania
-            to the world.
+            Bryx Trades Limited is a Tanzanian-owned agri-export company specialising in premium
+            agricultural products and cold chain solutions. We process and export high-quality
+            fresh fruits, oil seeds, legumes and pulses to international markets.
           </p>
           <p>
-            Unlike brokers who merely connect buyers and farmers, we take ownership of quality
-            throughout the entire supply chain — from farm-level Good Agricultural Practices to
-            HACCP-controlled processing and international logistics.
+            Our integrated supply chain enables full control — from farm-level sourcing to
+            processing, packaging, cold storage and export logistics — ensuring freshness,
+            consistency and compliance with global quality standards.
+          </p>
+          <p>
+            We work closely with local farmers and suppliers, promoting sustainable agriculture,
+            fair trade and long-term partnerships. At Bryx Trades Limited, we are committed to
+            delivering reliable supply, premium quality and lasting value to our global clients.
           </p>
           <p className="text-foreground">
             Led by Managing Director <span className="font-display italic">George Cosmas</span>,
