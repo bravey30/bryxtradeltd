@@ -23,7 +23,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <img
               src={bryxLogo}
               alt="Bryx Trades Limited"
-              className="h-24 w-auto max-w-[180px] object-contain"
+              className="h-16 sm:h-20 md:h-24 w-auto max-w-[160px] sm:max-w-[180px] object-contain"
             />
           </Link>
 
