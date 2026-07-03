@@ -65,19 +65,20 @@ function About() {
           <div>
             <p className="eyebrow text-accent">Vision</p>
             <h2 className="mt-6 text-4xl md:text-5xl">
-              To become the preferred global partner for
-              <em className="italic text-gold"> premium Tanzanian</em> agricultural exports.
+              To be the preferred global partner for
+              <em className="italic text-gold"> premium Tanzanian</em> agri-export solutions —
+              recognised for integrity, innovation and an unwavering dedication to quality.
             </h2>
           </div>
           <div>
             <p className="eyebrow text-accent">Mission</p>
             <ul className="mt-6 space-y-6 text-primary-foreground/85">
               {[
-                "Supply premium Tanzanian agricultural products of consistent export quality.",
-                "Maintain freshness through disciplined cold-chain solutions.",
+                "Be a leading provider of high-quality Tanzanian agricultural products to the global market.",
+                "Ensure the highest standards of freshness through state-of-the-art cold chain solutions.",
+                "Support sustainable farming and empower local communities through fair partnerships.",
+                "Create long-lasting value for our farmers, clients and stakeholders.",
                 "Deliver reliability our buyers can plan their operations around.",
-                "Empower local farmers through fair, long-term partnerships.",
-                "Create value for buyers, farmers and stakeholders alike.",
               ].map((m, i) => (
                 <li key={i} className="flex gap-4 border-b border-primary-foreground/15 pb-6">
                   <span className="font-mono text-xs text-gold">0{i + 1}</span>
