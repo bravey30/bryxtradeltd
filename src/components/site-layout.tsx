@@ -1,8 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { Menu, X } from "lucide-react";
-import bryxLogo from "@/assets/bryx-logo.png.asset.json";
-
+import bryxLogo from "@/assets/bryx-logo-cropped.png";
 
 const NAV = [
   { to: "/", label: "Home" },
@@ -21,7 +20,11 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4 lg:px-10">
           <Link to="/" className="group flex items-center gap-3">
-            <img src={bryxLogo.url} alt="Bryx Trades Limited" className="h-11 w-auto" />
+            <img
+              src={bryxLogo}
+              alt="Bryx Trades Limited"
+              className="h-16 sm:h-20 md:h-24 w-auto max-w-[160px] sm:max-w-[180px] object-contain"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
