@@ -62,7 +62,7 @@ function Index() {
           <div className="mt-16 grid gap-8 border-t border-cream/20 pt-6 text-cream/80 md:grid-cols-4">
             {[
               ["04", "Continents served"],
-              ["09", "Export commodities"],
+              ["10+", "Export commodities"],
               ["100%", "Traceable supply chain"],
               ["FOB · CIF", "Shipping terms"],
             ].map(([k, v]) => (
