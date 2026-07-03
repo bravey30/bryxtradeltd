@@ -3,6 +3,7 @@ import { SiteLayout } from "@/components/site-layout";
 import avocados from "@/assets/avocados.jpg";
 import sesame from "@/assets/sesame.jpg";
 import pulses from "@/assets/pulses.jpg";
+// soya image reserved for future group hero
 import soya from "@/assets/soya.jpg";
 import { ArrowUpRight } from "lucide-react";
 
