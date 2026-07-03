@@ -16,10 +16,10 @@ export const Route = createFileRoute("/markets")({
 });
 
 const regions = [
-  { region: "Middle East", cities: ["Dubai", "Abu Dhabi", "Doha", "Riyadh"], note: "Sesame, pulses, avocados" },
-  { region: "Europe", cities: ["Rotterdam", "London", "Hamburg"], note: "Hass avocado, chickpeas, soya" },
-  { region: "Asia", cities: ["Shanghai", "Mumbai", "Karachi"], note: "Sesame, pigeon peas, soya" },
-  { region: "Africa", cities: ["Nairobi", "Kigali", "Lusaka"], note: "Regional distribution" },
+  { region: "Middle East", cities: ["UAE", "Qatar", "Saudi Arabia"], note: "Sesame, pulses, avocados, cashewnuts" },
+  { region: "Europe", cities: ["United Kingdom", "Netherlands", "Germany"], note: "Hass avocados, chickpeas, soya beans" },
+  { region: "Asia", cities: ["China", "India"], note: "Sesame, pigeon peas, groundnuts" },
+  { region: "Africa", cities: ["Regional East & Southern Africa"], note: "Cross-border wholesale distribution" },
 ];
 
 function Markets() {
