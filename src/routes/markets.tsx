@@ -70,11 +70,11 @@ function Markets() {
           </div>
           <div className="md:col-span-7 grid gap-4 sm:grid-cols-2">
             {[
+              "Distributors",
+              "Trading houses",
+              "Food processors",
               "Food manufacturers",
               "Wholesale importers",
-              "Trading houses",
-              "Distributors",
-              "Food processors",
               "Retail supply chains",
             ].map((s, i) => (
               <div key={s} className="border-t border-border pt-4">
