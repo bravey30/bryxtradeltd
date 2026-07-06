@@ -38,7 +38,7 @@ const groups = [
       { name: "Pigeon Peas", note: "Protein-rich, machine-cleaned and sorted for export." },
       { name: "Chickpeas", note: "Kabuli & desi varieties, calibrated by size." },
       { name: "Mung Beans", note: "Bright green, uniform grade for global markets." },
-      { name: "Soya Beans", note: "High oil content, HACCP processed, long shelf life." },
+      { name: "Soya Beans", note: "High oil content, quality-processed, long shelf life." },
     ],
   },
   {

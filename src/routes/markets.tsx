@@ -93,7 +93,7 @@ function Markets() {
           <div className="mt-14 grid gap-6 md:grid-cols-5">
             {[
               "Inquiry & specification",
-              "Price confirmation (FOB / CIF)",
+              "Price confirmation & shipping terms",
               "Quality inspection & packaging",
               "Documentation & shipment",
               "On-time delivery & post-shipment support",
