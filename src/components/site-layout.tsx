@@ -109,7 +109,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           </div>
           <div className="mt-16 flex flex-wrap items-center justify-between gap-4 border-t border-primary-foreground/15 pt-6 text-xs text-primary-foreground/50">
             <span>© {new Date().getFullYear()} Bryx Trades Limited. All rights reserved.</span>
-            <span className="font-mono">HACCP · GAP · GMP compliant</span>
+            <span className="font-mono">International standards compliant</span>
           </div>
         </div>
       </footer>

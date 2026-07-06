@@ -64,7 +64,7 @@ function Index() {
               ["04", "Continents served"],
               ["10+", "Export commodities"],
               ["100%", "Traceable supply chain"],
-              ["FOB · CIF", "Shipping terms"],
+              ["Global shipping", "Export logistics"],
             ].map(([k, v]) => (
               <div key={v}>
                 <div className="font-display text-4xl text-cream">{k}</div>
@@ -88,7 +88,7 @@ function Index() {
               of every kilogram — from the farmer's hands to the buyer's container.
             </h2>
             <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-              Every shipment carries a story of Good Agricultural Practices, HACCP-controlled
+              Every shipment carries a story of Good Agricultural Practices, food-safety-controlled
               processing, and cold-chain logistics engineered for the Middle East, Europe and Asia.
               This is what integrated export looks like.
             </p>
@@ -101,9 +101,9 @@ function Index() {
         <div className="mx-auto grid max-w-[1400px] gap-px bg-border md:grid-cols-4">
           {[
             { icon: Sprout, title: "Direct sourcing", body: "Farmer-first partnerships across Tanzania's most fertile regions." },
-            { icon: ShieldCheck, title: "HACCP quality", body: "Sorting, grading and inspection under international food-safety systems." },
+            { icon: ShieldCheck, title: "Export quality", body: "Sorting, grading and inspection under international food-safety systems." },
             { icon: Leaf, title: "Cold chain", body: "Temperature integrity from packhouse to port for fresh produce." },
-            { icon: Ship, title: "Global logistics", body: "FOB, CIF, sea and air freight, customs — handled end-to-end." },
+            { icon: Ship, title: "Global logistics", body: "Sea and air freight, customs clearance — handled end-to-end." },
           ].map((p) => (
             <div key={p.title} className="bg-background p-10">
               <p.icon className="text-accent" size={28} strokeWidth={1.25} />
@@ -189,7 +189,7 @@ function Index() {
             <h2 className="mt-4 text-4xl md:text-5xl">Shipping to four continents.</h2>
             <p className="mt-6 text-muted-foreground">
               From Dar es Salaam to Rotterdam, Jebel Ali, Mundra and Shanghai —
-              our commodities move under FOB and CIF terms tailored to each buyer.
+              our commodities move under global shipping terms tailored to each buyer.
             </p>
             <Link to="/markets" className="mt-8 inline-flex items-center gap-2 text-sm underline underline-offset-8 decoration-accent decoration-2">
               Explore markets <ArrowUpRight size={16} />

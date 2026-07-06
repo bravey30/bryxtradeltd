@@ -5,23 +5,23 @@ export const Route = createFileRoute("/quality")({
   head: () => ({
     meta: [
       { title: "Quality & Compliance — Bryx Trades Limited" },
-      { name: "description", content: "GAP, HACCP, GMP, phytosanitary certification and full traceability across every Bryx shipment." },
+      { name: "description", content: "Phytosanitary certification, food-safety systems and full traceability across every Bryx shipment." },
       { property: "og:title", content: "Quality Assurance — Bryx Trades" },
-      { property: "og:description", content: "Farm-level GAP, HACCP processing, and complete supply-chain traceability." },
+      { property: "og:description", content: "Farm-level best practices, food-safety processing, and complete supply-chain traceability." },
     ],
   }),
   component: Quality,
 });
 
 const steps = [
-  { n: "01", t: "Farm-level GAP", d: "Good Agricultural Practices applied at source — ensuring freshness and uniformity across every harvest." },
+  { n: "01", t: "Farm-level best practices", d: "Good Agricultural Practices applied at source — ensuring freshness and uniformity across every harvest." },
   { n: "02", t: "Direct sourcing", d: "Aggregation from vetted farmers and cooperatives into our regional receiving points." },
   { n: "03", t: "Product inspection", d: "Rigorous pre-export sorting and grading to the highest buyer specifications." },
-  { n: "04", t: "HACCP & GMP processing", d: "Comprehensive food safety and hygiene systems in every processing facility." },
+  { n: "04", t: "Food safety & hygiene processing", d: "Comprehensive food safety and hygiene systems in every processing facility." },
   { n: "05", t: "Export packaging", d: "Export-standard handling and packaging appropriate to sea or air freight." },
   { n: "06", t: "Cold storage", d: "Temperature integrity from packhouse to container for fresh produce." },
   { n: "07", t: "Documentation", d: "Phytosanitary certification, export documentation and coordinated customs clearance." },
-  { n: "08", t: "Shipping", d: "FOB or CIF, sea or air — tracked with post-shipment support." },
+  { n: "08", t: "Shipping", d: "Global shipping, sea or air — tracked with post-shipment support." },
 ];
 
 function Quality() {
@@ -43,7 +43,7 @@ function Quality() {
 
       <section className="mx-auto max-w-[1400px] px-6 pb-32 lg:px-10">
         <div className="grid gap-x-10 gap-y-6 md:grid-cols-4">
-          {["GAP", "HACCP", "GMP", "Phytosanitary"].map((c) => (
+          {["Agricultural Best Practices", "Food Safety", "Hygiene Standards", "Phytosanitary"].map((c) => (
             <div key={c} className="border-t-2 border-accent pt-4">
               <div className="font-display text-3xl">{c}</div>
               <div className="eyebrow mt-2">Certified system</div>
@@ -79,7 +79,7 @@ function Quality() {
             "Reliable and consistent supply across seasons",
             "Strong farmer networks and direct sourcing",
             "Strict quality control and export compliance",
-            "Flexible FOB and CIF shipping options",
+            "Flexible global shipping options",
             "Competitive pricing and timely delivery",
             "Transparent communication and long-term partnerships",
           ].map((a, i) => (

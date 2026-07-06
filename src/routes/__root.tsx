@@ -71,7 +71,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Integrated agri-export from farm to port. Hass & Fuerte avocados, sesame, pulses and soya beans — sourced, processed and shipped from Tanzania to the world." },
       { name: "author", content: "Bryx Trades Limited" },
       { property: "og:title", content: "Bryx Trades Limited — Tanzania's Agricultural Export Partner" },
-      { property: "og:description", content: "Farm-to-port sourcing of premium Tanzanian produce. HACCP quality, cold-chain, FOB & CIF worldwide." },
+      { property: "og:description", content: "Farm-to-port sourcing of premium Tanzanian produce. Quality assured, cold-chain, worldwide shipping." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
