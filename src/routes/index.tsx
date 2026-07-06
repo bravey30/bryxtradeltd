@@ -103,7 +103,7 @@ function Index() {
             { icon: Sprout, title: "Direct sourcing", body: "Farmer-first partnerships across Tanzania's most fertile regions." },
             { icon: ShieldCheck, title: "Export quality", body: "Sorting, grading and inspection under international food-safety systems." },
             { icon: Leaf, title: "Cold chain", body: "Temperature integrity from packhouse to port for fresh produce." },
-            { icon: Ship, title: "Global logistics", body: "FOB, CIF, sea and air freight, customs — handled end-to-end." },
+            { icon: Ship, title: "Global logistics", body: "Sea and air freight, customs clearance — handled end-to-end." },
           ].map((p) => (
             <div key={p.title} className="bg-background p-10">
               <p.icon className="text-accent" size={28} strokeWidth={1.25} />
