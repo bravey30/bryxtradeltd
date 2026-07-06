@@ -189,7 +189,7 @@ function Index() {
             <h2 className="mt-4 text-4xl md:text-5xl">Shipping to four continents.</h2>
             <p className="mt-6 text-muted-foreground">
               From Dar es Salaam to Rotterdam, Jebel Ali, Mundra and Shanghai —
-              our commodities move under FOB and CIF terms tailored to each buyer.
+              our commodities move under global shipping terms tailored to each buyer.
             </p>
             <Link to="/markets" className="mt-8 inline-flex items-center gap-2 text-sm underline underline-offset-8 decoration-accent decoration-2">
               Explore markets <ArrowUpRight size={16} />
