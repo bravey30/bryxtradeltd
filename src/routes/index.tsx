@@ -64,7 +64,7 @@ function Index() {
               ["04", "Continents served"],
               ["10+", "Export commodities"],
               ["100%", "Traceable supply chain"],
-              ["FOB · CIF", "Shipping terms"],
+              ["Global shipping", "Export logistics"],
             ].map(([k, v]) => (
               <div key={v}>
                 <div className="font-display text-4xl text-cream">{k}</div>
