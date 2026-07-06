@@ -79,7 +79,7 @@ function Quality() {
             "Reliable and consistent supply across seasons",
             "Strong farmer networks and direct sourcing",
             "Strict quality control and export compliance",
-            "Flexible FOB and CIF shipping options",
+            "Flexible global shipping options",
             "Competitive pricing and timely delivery",
             "Transparent communication and long-term partnerships",
           ].map((a, i) => (
