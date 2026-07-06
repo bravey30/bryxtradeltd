@@ -43,7 +43,7 @@ function Quality() {
 
       <section className="mx-auto max-w-[1400px] px-6 pb-32 lg:px-10">
         <div className="grid gap-x-10 gap-y-6 md:grid-cols-4">
-          {["GAP", "HACCP", "GMP", "Phytosanitary"].map((c) => (
+          {["Agricultural Best Practices", "Food Safety", "Hygiene Standards", "Phytosanitary"].map((c) => (
             <div key={c} className="border-t-2 border-accent pt-4">
               <div className="font-display text-3xl">{c}</div>
               <div className="eyebrow mt-2">Certified system</div>
