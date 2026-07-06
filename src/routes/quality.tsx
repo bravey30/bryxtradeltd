@@ -17,7 +17,7 @@ const steps = [
   { n: "01", t: "Farm-level best practices", d: "Good Agricultural Practices applied at source — ensuring freshness and uniformity across every harvest." },
   { n: "02", t: "Direct sourcing", d: "Aggregation from vetted farmers and cooperatives into our regional receiving points." },
   { n: "03", t: "Product inspection", d: "Rigorous pre-export sorting and grading to the highest buyer specifications." },
-  { n: "04", t: "HACCP & GMP processing", d: "Comprehensive food safety and hygiene systems in every processing facility." },
+  { n: "04", t: "Food safety & hygiene processing", d: "Comprehensive food safety and hygiene systems in every processing facility." },
   { n: "05", t: "Export packaging", d: "Export-standard handling and packaging appropriate to sea or air freight." },
   { n: "06", t: "Cold storage", d: "Temperature integrity from packhouse to container for fresh produce." },
   { n: "07", t: "Documentation", d: "Phytosanitary certification, export documentation and coordinated customs clearance." },
