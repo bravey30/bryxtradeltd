@@ -7,7 +7,7 @@ export const Route = createFileRoute("/quality")({
       { title: "Quality & Compliance — Bryx Trades Limited" },
       { name: "description", content: "Phytosanitary certification, food-safety systems and full traceability across every Bryx shipment." },
       { property: "og:title", content: "Quality Assurance — Bryx Trades" },
-      { property: "og:description", content: "Farm-level GAP, HACCP processing, and complete supply-chain traceability." },
+      { property: "og:description", content: "Farm-level best practices, food-safety processing, and complete supply-chain traceability." },
     ],
   }),
   component: Quality,
