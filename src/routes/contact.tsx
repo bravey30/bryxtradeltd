@@ -79,7 +79,7 @@ function Contact() {
               <Field label="Country" name="country" />
             </div>
             <Field label="Product interest" name="product" placeholder="Hass avocados, white sesame, mung beans, cashewnuts…" />
-            <Field label="Estimated volume" name="volume" placeholder="e.g. 1 × 20ft container / month, FOB or CIF" />
+            <Field label="Estimated volume" name="volume" placeholder="e.g. 1 × 20ft container / month, sea or air" />
             <div>
               <label className="eyebrow">Message</label>
               <textarea
