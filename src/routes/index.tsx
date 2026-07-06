@@ -88,7 +88,7 @@ function Index() {
               of every kilogram — from the farmer's hands to the buyer's container.
             </h2>
             <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-              Every shipment carries a story of Good Agricultural Practices, HACCP-controlled
+              Every shipment carries a story of Good Agricultural Practices, food-safety-controlled
               processing, and cold-chain logistics engineered for the Middle East, Europe and Asia.
               This is what integrated export looks like.
             </p>
