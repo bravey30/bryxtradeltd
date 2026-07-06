@@ -14,7 +14,7 @@ export const Route = createFileRoute("/quality")({
 });
 
 const steps = [
-  { n: "01", t: "Farm-level GAP", d: "Good Agricultural Practices applied at source — ensuring freshness and uniformity across every harvest." },
+  { n: "01", t: "Farm-level best practices", d: "Good Agricultural Practices applied at source — ensuring freshness and uniformity across every harvest." },
   { n: "02", t: "Direct sourcing", d: "Aggregation from vetted farmers and cooperatives into our regional receiving points." },
   { n: "03", t: "Product inspection", d: "Rigorous pre-export sorting and grading to the highest buyer specifications." },
   { n: "04", t: "HACCP & GMP processing", d: "Comprehensive food safety and hygiene systems in every processing facility." },
