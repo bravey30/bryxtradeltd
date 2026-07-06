@@ -21,7 +21,7 @@ const steps = [
   { n: "05", t: "Export packaging", d: "Export-standard handling and packaging appropriate to sea or air freight." },
   { n: "06", t: "Cold storage", d: "Temperature integrity from packhouse to container for fresh produce." },
   { n: "07", t: "Documentation", d: "Phytosanitary certification, export documentation and coordinated customs clearance." },
-  { n: "08", t: "Shipping", d: "FOB or CIF, sea or air — tracked with post-shipment support." },
+  { n: "08", t: "Shipping", d: "Global shipping, sea or air — tracked with post-shipment support." },
 ];
 
 function Quality() {
