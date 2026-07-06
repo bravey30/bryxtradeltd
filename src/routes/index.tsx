@@ -101,7 +101,7 @@ function Index() {
         <div className="mx-auto grid max-w-[1400px] gap-px bg-border md:grid-cols-4">
           {[
             { icon: Sprout, title: "Direct sourcing", body: "Farmer-first partnerships across Tanzania's most fertile regions." },
-            { icon: ShieldCheck, title: "HACCP quality", body: "Sorting, grading and inspection under international food-safety systems." },
+            { icon: ShieldCheck, title: "Export quality", body: "Sorting, grading and inspection under international food-safety systems." },
             { icon: Leaf, title: "Cold chain", body: "Temperature integrity from packhouse to port for fresh produce." },
             { icon: Ship, title: "Global logistics", body: "FOB, CIF, sea and air freight, customs — handled end-to-end." },
           ].map((p) => (
