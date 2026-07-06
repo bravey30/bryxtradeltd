@@ -60,7 +60,7 @@ function Contact() {
           <div className="border-t border-border pt-8">
             <p className="eyebrow">Legal Compliance</p>
             <div className="mt-4 flex flex-wrap gap-2 font-mono text-xs">
-              {["TIN Certificate", "Certificate of Registration", "HACCP", "GAP", "GMP"].map((c) => (
+              {["TIN Certificate", "Certificate of Registration", "Food Safety", "Agricultural Standards", "Quality Systems"].map((c) => (
                 <span key={c} className="rounded-sm border border-border px-3 py-1.5">{c}</span>
               ))}
             </div>
