@@ -31,7 +31,7 @@ function Markets() {
         <div className="relative mx-auto max-w-[1400px] px-6 pt-32 pb-24 lg:px-10">
           <p className="eyebrow text-gold">Global Markets</p>
           <h1 className="mt-6 max-w-4xl text-[clamp(2.5rem,6vw,6rem)] text-cream">
-            From Dar es Salaam <em className="italic text-gold">to the world.</em>
+            From Dar es Salaam and Mombasa <em className="italic text-gold">to the world.</em>
           </h1>
           <p className="mt-8 max-w-2xl text-lg text-cream/80">
             A geographically diversified buyer base across four continents — importers,
@@ -45,8 +45,8 @@ function Markets() {
           {regions.map((r, i) => (
             <div key={r.region} className="bg-background p-10 md:p-14">
               <div className="flex items-baseline justify-between">
-                <div className="font-mono text-xs text-accent">R/0{i + 1}</div>
-                <div className="eyebrow">Destination</div>
+                {/* <div className="font-mono text-xs text-accent">R/0{i + 1}</div> */}
+                {/* <div className="eyebrow">Destination</div> */}
               </div>
               <h3 className="mt-6 font-display text-4xl md:text-5xl">{r.region}</h3>
               <div className="mt-8 flex flex-wrap gap-2">
@@ -56,7 +56,7 @@ function Markets() {
                   </span>
                 ))}
               </div>
-              <p className="mt-8 text-sm text-muted-foreground">{r.note}</p>
+              {/* <p className="mt-8 text-sm text-muted-foreground">{r.note}</p> */}
             </div>
           ))}
         </div>

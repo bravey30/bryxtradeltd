@@ -20,7 +20,7 @@ export const Route = createFileRoute("/products")({
 
 const groups = [
   {
-    tag: "01 — Fresh Produce",
+    tag: "Fresh Produce",
     title: "Premium Hass & Fuerte Avocados",
     image: avocados,
     caption: "Creamy, rich-flavoured export varieties grown for the international market. Peak season: March – September.",
@@ -30,7 +30,7 @@ const groups = [
     ],
   },
   {
-    tag: "02 — Pulses",
+    tag: "Pulses",
     title: "Premium Pulses",
     image: pulses,
     caption: "High-protein legumes processed to strict global standards and buyer specifications.",
@@ -42,7 +42,7 @@ const groups = [
     ],
   },
   {
-    tag: "03 — Nuts & Oilseeds",
+    tag: "Nuts & Oilseeds",
     title: "Nuts & Oilseeds",
     image: sesame,
     caption: "High oil content, long shelf life — trusted by food processors and manufacturers.",

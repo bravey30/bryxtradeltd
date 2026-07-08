@@ -28,7 +28,7 @@ function Index() {
         <div className="relative mx-auto flex min-h-[92vh] max-w-[1400px] flex-col justify-between px-6 pt-20 pb-14 lg:px-10">
           <div className="flex items-center gap-3">
             <span className="h-px w-16 bg-gold" />
-            <span className="eyebrow text-cream">01 — Tanzanian Agri-Export</span>
+            <span className="eyebrow text-cream">Tanzanian Agri-Export</span>
           </div>
 
           <div className="max-w-4xl">
@@ -118,7 +118,7 @@ function Index() {
       <section className="mx-auto max-w-[1400px] px-6 py-32 lg:px-10">
         <div className="flex items-end justify-between gap-8 pb-16">
           <div>
-            <p className="eyebrow">02 — Portfolio</p>
+            <p className="eyebrow">Portfolio</p>
             <h2 className="mt-4 text-[clamp(2rem,4vw,3.75rem)]">Featured harvest</h2>
           </div>
           <Link to="/products" className="hidden md:inline-flex items-center gap-2 text-sm underline underline-offset-8 decoration-accent decoration-2 hover:text-primary">
@@ -164,7 +164,7 @@ function Index() {
             className="h-full min-h-[420px] w-full object-cover"
           />
           <div className="flex flex-col justify-center p-12 md:p-20">
-            <p className="eyebrow text-accent">03 — Rooted in Tanzania</p>
+            <p className="eyebrow text-accent">Rooted in Tanzania</p>
             <h2 className="mt-6 text-4xl md:text-5xl">
               Every export begins with a<br />
               <em className="italic text-gold">handshake in the field.</em>
@@ -185,7 +185,7 @@ function Index() {
       <section className="mx-auto max-w-[1400px] px-6 py-32 lg:px-10">
         <div className="grid gap-16 md:grid-cols-12">
           <div className="md:col-span-5">
-            <p className="eyebrow">04 — Reach</p>
+            <p className="eyebrow">Our Reach</p>
             <h2 className="mt-4 text-4xl md:text-5xl">Shipping to four continents.</h2>
             <p className="mt-6 text-muted-foreground">
               From Dar es Salaam to Rotterdam, Jebel Ali, Mundra and Shanghai —

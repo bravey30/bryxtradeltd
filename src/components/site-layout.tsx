@@ -101,9 +101,9 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               <p className="eyebrow text-primary-foreground/60">Contact</p>
               <ul className="mt-4 space-y-2 text-sm text-primary-foreground/80">
                 <li>Dar es Salaam, Tanzania</li>
-                <li>info@bryxtrades.co.tz</li>
-                <li>Managing Director</li>
-                <li>George Cosmas</li>
+                <li>info@bryxtrades.com</li>
+                <li><a href="https://wa.me/255621219517">+255 621 219 517</a></li>
+                
               </ul>
             </div>
           </div>

@@ -54,7 +54,7 @@ function About() {
             delivering reliable supply, premium quality and lasting value to our global clients.
           </p>
           <p className="text-foreground">
-            Led by Managing Director <span className="font-display italic">George Cosmas</span>,
+            Led by Managing Director,
             our team combines deep farming networks with export-grade discipline.
           </p>
         </div>
