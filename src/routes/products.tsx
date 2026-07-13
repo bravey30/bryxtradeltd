@@ -39,9 +39,9 @@ const groups = [
     caption: "High-protein legumes processed to strict global standards and buyer specifications.",
     items: [
       { name: "Chickpeas", image: "/chick-peas.png" },
-      { name: "Pigeon Peas", image: "/pigeon-peas.webp" },
-      { name: "Mung Beans", image: "/pexels-ganajp-18358654.jpg" },
-      { name: "Soya Beans", image: "/soya-beans.webp" },
+      { name: "Pigeon Peas", image: "/pigeon-peas-366.jpg" },
+      { name: "Mung Beans", image: "/mung-bea.png" },
+      { name: "Soya Beans", image: "/soya-beans.png" },
     ],
   },
   {
