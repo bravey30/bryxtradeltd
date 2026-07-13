@@ -31,7 +31,7 @@ const groups = [
       { name: "Groundnuts", image: "/peanuts.png" },
       { name: "Sesame Seeds", image: "/sesame.png" },
       { name: "Sunflower Seeds", image: "/sunflower.png" },
-      { name: "Cashew Kernel", image: "/chashew-kernel.jpg" },
+      
     ],
   },
   {
@@ -48,9 +48,9 @@ const groups = [
     title: "Coffee",
     caption: "Sun-dried and washed beans from Tanzania's highland estates, graded for specialty and commercial markets.",
     items: [
-      { name: "Arabica Coffee", image: null },
-      { name: "Robusta Coffee", image: null },
-      { name: "Green Coffee Beans", image: null },
+      { name: "Arabica Coffee", image: "/arabica.jpeg" },
+      { name: "Robusta Coffee", image: "/robusta2.jpeg" },
+      { name: "Green Coffee Beans", image: "/green-coffee.jpeg" },
     ],
   },
 ];
