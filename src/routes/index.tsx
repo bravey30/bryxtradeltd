@@ -1,10 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, Leaf, Ship, ShieldCheck, Sprout } from "lucide-react";
 import { SiteLayout } from "@/components/site-layout";
-import heroFarm from "@/assets/hero-farm.jpg";
-import avocados from "@/assets/avocados.jpg";
-import sesame from "@/assets/sesame.jpg";
-import pulses from "@/assets/pulses.jpg";
+import heroFarm from "@/assets/hero.jpeg";
+import avocados from "@/assets/avocadoes-home.jpeg";
+import sesame from "@/assets/hero-seeds.jpeg";
+import pulses from "@/assets/homepage-img.jpeg";
 import farmerHands from "@/assets/farmer-hands.jpg";
 import port from "@/assets/port.jpg";
 
