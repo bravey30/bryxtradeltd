@@ -1,18 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
-import avocados from "@/assets/avocados.jpg";
-import sesame from "@/assets/sesame.jpg";
-import pulses from "@/assets/pulses.jpg";
-import soya from "@/assets/soya.jpg";
 import { ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
       { title: "Products — Bryx Trades Limited" },
-      { name: "description", content: "Hass & Fuerte avocados, white/black/golden sesame, pigeon peas, chickpeas, mung beans and premium soya beans from Tanzania." },
+      { name: "description", content: "Hass & Fuerte avocados, white/black/golden sesame, pigeon peas, chickpeas, mung beans, coffee and premium soya beans from Tanzania." },
       { property: "og:title", content: "Product Portfolio — Bryx Trades" },
-      { property: "og:description", content: "Fresh produce, oil seeds and pulses — export-grade Tanzanian commodities." },
+      { property: "og:description", content: "Fresh produce, oil seeds, pulses and coffee — export-grade Tanzanian commodities." },
     ],
   }),
   component: Products,
@@ -20,42 +16,51 @@ export const Route = createFileRoute("/products")({
 
 const groups = [
   {
-    tag: "Fresh Produce",
-    title: "Premium Hass & Fuerte Avocados",
-    image: avocados,
-    caption: "Creamy, rich-flavoured export varieties grown for the international market. Peak season: March – September.",
+    title: "Fresh Produce",
+    caption: "Creamy, rich-flavoured export varieties grown for the international market.",
     items: [
-      { name: "Hass Avocado", note: "Premium export variety — high oil content, rich flavour and strong shelf life." },
-      { name: "Fuerte Avocado", note: "Smooth-skinned, buttery texture, ideal for European and Middle Eastern retail." },
+      { name: "Hass Avocado", image: "/avocado2.jpg" },
+      { name: "Fuerte Avocado", image: "/puertu.jpg" },
     ],
   },
   {
-    tag: "Pulses",
-    title: "Premium Pulses",
-    image: pulses,
-    caption: "High-protein legumes processed to strict global standards and buyer specifications.",
-    items: [
-      { name: "Pigeon Peas", note: "Protein-rich, machine-cleaned and sorted for export." },
-      { name: "Chickpeas", note: "Kabuli & desi varieties, calibrated by size." },
-      { name: "Mung Beans", note: "Bright green, uniform grade for global markets." },
-      { name: "Soya Beans", note: "High oil content, quality-processed, long shelf life." },
-    ],
-  },
-  {
-    tag: "Nuts & Oilseeds",
-    title: "Nuts & Oilseeds",
-    image: sesame,
+    title: "Nuts and Seeds",
     caption: "High oil content, long shelf life — trusted by food processors and manufacturers.",
     items: [
-      { name: "Sesame Seeds", note: "White, black and golden — high oil content for food and confectionery." },
-      { name: "Sunflower Seeds", note: "Cleaned and graded for oil extraction and snack industries." },
-      { name: "Groundnuts", note: "Blanched, split or whole — aflatoxin-controlled for export." },
-      { name: "Cashewnuts", note: "Premium Tanzanian raw and processed kernels." },
+      { name: "Cashew Nuts", image: "/chashewnuts.jpg" },
+      { name: "Groundnuts", image: "/peanuts.png" },
+      { name: "Sesame Seeds", image: "/sesame.png" },
+      { name: "Sunflower Seeds", image: "/sunflower.png" },
+      { name: "Cashew Kernel", image: "/chashew-kernel.jpg" },
+    ],
+  },
+  {
+    title: "Pulses and Cereals",
+    caption: "High-protein legumes processed to strict global standards and buyer specifications.",
+    items: [
+      { name: "Chickpeas", image: "/chick-peas.jpg" },
+      { name: "Pigeon Peas", image: "/pigeon-peas.webp" },
+      { name: "Mung Beans", image: "/pexels-ganajp-18358654.jpg" },
+      { name: "Soya Beans", image: "/soya-beans.webp" },
+    ],
+  },
+  {
+    title: "Coffee",
+    caption: "Sun-dried and washed beans from Tanzania's highland estates, graded for specialty and commercial markets.",
+    items: [
+      { name: "Arabica Coffee", image: null },
+      { name: "Robusta Coffee", image: null },
+      { name: "Green Coffee Beans", image: null },
     ],
   },
 ];
 
-
+const swatches = [
+  "bg-accent/15",
+  "bg-primary/10",
+  "bg-secondary",
+  "bg-muted",
+];
 
 function Products() {
   return (
@@ -63,7 +68,7 @@ function Products() {
       <section className="mx-auto max-w-[1400px] px-6 pt-24 pb-20 lg:px-10">
         <p className="eyebrow rule-gold">Portfolio</p>
         <h1 className="mt-6 max-w-5xl text-[clamp(2.5rem,6vw,6rem)]">
-          Nine commodities. One
+          Ten commodities. One
           <em className="italic text-primary/70"> integrated </em>
           supply chain.
         </h1>
@@ -73,41 +78,37 @@ function Products() {
         </p>
       </section>
 
-      {groups.map((g, i) => (
-        <section
-          key={g.title}
-          className={`mx-auto max-w-[1400px] px-6 pb-24 lg:px-10 ${i === 0 ? "" : ""}`}
-        >
-          <div className={`grid gap-10 md:grid-cols-12 ${i % 2 ? "md:[&>*:first-child]:order-2" : ""}`}>
-            <div className="md:col-span-7">
-              <img
-                src={g.image}
-                alt={g.title}
-                loading="lazy"
-                className="h-[420px] w-full rounded-sm object-cover md:h-[560px]"
-              />
-            </div>
-            <div className="md:col-span-5 flex flex-col justify-center">
-              <p className="eyebrow text-accent">{g.tag}</p>
-              <h2 className="mt-4 text-5xl md:text-6xl">{g.title}</h2>
-              <p className="mt-6 max-w-md text-base text-muted-foreground">{g.caption}</p>
-              <ul className="mt-10 space-y-6">
-                {g.items.map((it, idx) => (
-                  <li key={it.name} className="border-t border-border pt-5">
-                    <div className="flex items-baseline justify-between gap-4">
-                      <span className="font-display text-2xl">{it.name}</span>
-                      <span className="font-mono text-xs text-muted-foreground">
-                        0{idx + 1}
+      <section className="mx-auto max-w-[1400px] px-6 pb-24 lg:px-10">
+        {groups.map((g) => (
+          <div key={g.title} className="mb-16 last:mb-0">
+            <h2 className="text-3xl md:text-4xl">{g.title}</h2>
+            <p className="mt-3 max-w-2xl text-sm text-muted-foreground">{g.caption}</p>
+            <div className="mt-8 grid grid-cols-3 gap-x-8 gap-y-10 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7">
+              {g.items.map((it, idx) => (
+                <div key={it.name} className="flex flex-col items-center text-center">
+                  {it.image ? (
+                    <img
+                      src={it.image}
+                      alt={it.name}
+                      loading="lazy"
+                      className="aspect-[4/3] w-full max-w-[160px] rounded-sm object-cover"
+                    />
+                  ) : (
+                    <div
+                      className={`flex aspect-[4/3] w-full max-w-[160px] items-center justify-center rounded-sm ${swatches[idx % swatches.length]}`}
+                    >
+                      <span className="font-display text-3xl text-primary/40">
+                        {it.name.charAt(0)}
                       </span>
                     </div>
-                    <p className="mt-2 text-sm text-muted-foreground">{it.note}</p>
-                  </li>
-                ))}
-              </ul>
+                  )}
+                  <span className="mt-4 text-base text-accent">{it.name}</span>
+                </div>
+              ))}
             </div>
           </div>
-        </section>
-      ))}
+        ))}
+      </section>
 
       <section className="border-t border-border bg-secondary/50">
         <div className="mx-auto flex max-w-[1400px] flex-col items-start gap-6 px-6 py-20 md:flex-row md:items-center md:justify-between lg:px-10">

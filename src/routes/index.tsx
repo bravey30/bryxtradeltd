@@ -130,7 +130,7 @@ function Index() {
           <FeatureCard
             className="md:col-span-7 md:row-span-2"
             image={avocados}
-            index="A / 01"
+            index="01"
             title="Hass & Fuerte Avocados"
             desc="Premium export varieties, harvested at optimal maturity and shipped in temperature-controlled containers."
             tall
@@ -138,14 +138,14 @@ function Index() {
           <FeatureCard
             className="md:col-span-5"
             image={sesame}
-            index="A / 02"
+            index="02"
             title="Sesame, Sunflower, Groundnuts & Cashewnuts"
             desc="Nuts and oilseeds with high oil content and long shelf life — for food processors and manufacturers."
           />
           <FeatureCard
             className="md:col-span-5"
             image={pulses}
-            index="A / 03"
+            index="03"
             title="Pigeon Peas · Chickpeas · Mung Beans · Soya"
             desc="Protein-rich pulses, sorted and graded to buyer specifications."
           />
