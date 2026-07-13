@@ -50,7 +50,6 @@ const groups = [
     items: [
       { name: "Arabica Coffee", image: "/arabica.jpeg" },
       { name: "Robusta Coffee", image: "/robusta2.jpeg" },
-      { name: "Green Coffee Beans", image: "/green-coffee.jpeg" },
     ],
   },
 ];
